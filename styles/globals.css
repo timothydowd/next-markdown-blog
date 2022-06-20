@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,12 +7,20 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+   font-family: 'Inconsolata', 'mono-space';
+  background: rgb(57, 52, 58);
 }
 
 p {
   margin: 15px 0;
   line-height: 1.8;
+  color:#777777;
+}
+
+h3 {
+  
+  color:#fff;
 }
 
 a {
@@ -26,8 +34,8 @@ img {
 }
 
 header {
-  background: steelblue;
-  color: #fff;
+  background: rgb(57, 52, 58);
+  color: rgb(29, 197, 23);
   padding: 5px;
   margin-bottom: 40px;
 }
@@ -71,16 +79,16 @@ header a {
 }
 
 .posts {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
   gap: 30px;
   margin-top: 30px;
 }
 
 .card {
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /*padding: 15px; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .card-page {
@@ -89,12 +97,13 @@ header a {
 
 .post-title {
   margin: 10px 0;
+  color:#f4f4f4;
 }
 
 .post-date {
-  background: #f4f4f4;
+  background: rgb(57, 52, 58);
   margin-bottom: 20px;
-  padding: 3px 10px;
+  /* padding: 3px 10px; */
 }
 
 .post-body ul,

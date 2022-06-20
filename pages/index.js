@@ -21,9 +21,9 @@ export default function Home({ posts }) {
   )
 }
 
-export async function getStaticProps() {
-  // Get files from the posts dir
-  const files = fs.readdirSync(path.join('posts'))
+export async function getStaticProps() { 
+  // Get files from the posts dir..  u could also import from an api here if u wanted
+  const files = fs.readdirSync(path.join('posts')) // fs is sued to get the server side stuff 
 
   // Get slug and frontmatter from posts
   const posts = files.map((filename) => {
