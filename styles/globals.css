@@ -15,7 +15,7 @@ body {
 p {
   margin: 15px 0;
   line-height: 1.8;
-  color:#777777;
+  color:#c2c2c2;
 }
 
 h3 {
@@ -25,7 +25,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: rgb(118, 207, 58);
 }
 
 img {
@@ -35,8 +35,8 @@ img {
 
 header {
   background: rgb(57, 52, 58);
-  color: rgb(29, 197, 23);
-  padding: 5px;
+  color: #fff;
+  padding-top: 20px;
   margin-bottom: 40px;
 }
 
